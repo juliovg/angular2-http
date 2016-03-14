@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="icon" type="image/png" href="resources/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="resources/images/favicon.ico" />
+
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="node_modules/es6-shim/es6-shim.js"></script>
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+
+    <script src="node_modules/angular2/bundles/http.dev.js"></script>
+
+
+    <!--<script src="node_modules/systemjs/dist/system-polyfills.js"></script>-->
+    <!--<script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>-->
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="resources/vendor/semantic-ui/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="app/css/styles.css">
+
+
+
+
+</head>
+<body>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+        System.config({
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/main')
+                .then(null, console.error.bind(console));
+    </script>
+
+
+
+
+
+    <!-- Menu Bar -->
+    <div class="ui menu">
+        <div class="ui container">
+            <a href="#" class="header item">
+                <img class="logo" src="resources/images/ng-book-2-minibook.png">
+                ng-book 2
+            </a>
+            <div class="header item borderless">
+                <h1 class="ui header">
+                    Angular 2 Inventory App
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui main text container">
+        <http-app></http-app>
+    </div>
+
+
+
+</body>
+</html>

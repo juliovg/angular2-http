@@ -1,0 +1,67 @@
+.style{
+    background-color: rgba(88, 83, 83, 0.29);
+    border: 2px solid #73AD21;
+}
+
+.switch{
+    background-color: rgba(88, 106, 171, 0.29);
+    border: 2px solid #73AD21;
+}
+
+.classSample{
+    background-color: rgba(88, 106, 31, 0.29);
+    border: 2px solid #73AD21;
+}
+
+.ng-for-sample{
+    background-color: rgba(88, 50, 91, 0.29);
+    border: 2px solid #73AD21;
+}
+
+.ng-non-bindable-sample{
+    background-color: rgba(88, 70, 51, 0.29);
+    border: 2px solid #73AD21;
+}
+
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+div {
+    padding: 3px;
+    margin: 2px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.bordered {
+    border: 1px dashed black;
+    background-color: #eee;
+}
+
+.selectors {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.base {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+}
+
+.round {
+    border-radius: 20px;
+}
+
+.ui.menu .item img.logo {
+    margin-right: 1.5em;
+}

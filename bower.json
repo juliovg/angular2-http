@@ -1,0 +1,9 @@
+{
+  "name": "MyCounterApp",
+  "description": "MyCounterApp done by Julio Vasquez",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "semantic-ui" : "latest"
+  }
+}
